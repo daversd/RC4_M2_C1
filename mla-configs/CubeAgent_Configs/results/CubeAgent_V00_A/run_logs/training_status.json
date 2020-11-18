@@ -1,0 +1,23 @@
+{
+    "CubeBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 383668,
+                "file_path": "results\\CubeAgent_V00_A\\CubeBehaviour\\CubeBehaviour-383668.nn",
+                "reward": null,
+                "creation_time": 1605654952.9517171
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 383668,
+            "file_path": "results\\CubeAgent_V00_A\\CubeBehaviour.nn",
+            "reward": null,
+            "creation_time": 1605654952.9517171
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.21.1",
+        "tensorflow_version": "2.3.1"
+    }
+}
