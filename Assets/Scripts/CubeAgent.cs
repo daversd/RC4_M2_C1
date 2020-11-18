@@ -72,11 +72,13 @@ public class CubeAgent : Agent
     //08.2 Override CollectObservations
     public override void CollectObservations(VectorSensor sensor)
     {
+        //13 Add the current position of the target as an observation [3 Observations]
+        sensor.AddObservation(_target.transform.localPosition);
+
         //12 Add the current local position of the agent as an observation [3 Observations]
         sensor.AddObservation(transform.localPosition);
 
-        //13 Add the current position of the target as an observation [3 Observations]
-        sensor.AddObservation(_target.transform.localPosition);
+        
 
         //14 Add the current velocity of the agent as an observation [2 Observations]
         sensor.AddObservation(_rigidbody.velocity.x);

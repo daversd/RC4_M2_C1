@@ -1,0 +1,2 @@
+model_checkpoint_path: "CubeBehaviour-105252.ckpt"
+all_model_checkpoint_paths: "CubeBehaviour-105252.ckpt"
